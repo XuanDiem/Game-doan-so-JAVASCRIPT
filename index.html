@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sử dụng pseudo-code và Flowchart để mô tả giải thuật</title>
+</head>
+<body>
+<script>
+    let numberRandom = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+    let numberInput = parseFloat(prompt("Nhap so vao o trong"));
+    for (let index = 0; index < numberRandom.length; index++) {
+        var a = numberRandom[index];
+        if (numberInput === a) {
+            document.writeln("Ban da doan dung");
+            break;
+        } else {
+            document.writeln("Ban da doan sai");
+            break;
+        }
+    }
+</script>
+</body>
+</html>
